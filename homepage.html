@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="homepage.css">
+
+	</head>
+	
+	<body>
+			
+		<div class="intro">
+		  <h1>Welcome to The Eye of the Beholder</h1>
+		  <p>This site/app is a school project that me and my classmate are working on. 
+		  This is meant to be a site for all you DMs out there (or players) who want to have easy access to all the D&D monsters out there. 
+		  Right now we are trying to add some of the dragons to this site!</p>
+		</div>  
+
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="infopage.html">Monsters</a>
+		  <a href="#">Dragon 1</a>
+		  <a href="#">Dragon 2</a>
+		  <a href="#">Dragon 3</a>
+		</div>
+
+		<span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+		<script>
+			/* Open the sidenav */
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "100%";
+			}
+
+			/* Close/hide the sidenav */
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+	</body>
+</html>
