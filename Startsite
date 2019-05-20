@@ -39,6 +39,13 @@
 			  document.getElementById("mySidenav").style.width = "0";
 			}
 		</script>
+		
+		<div class="intro">
+		  <h2>Welcome to The Eye of the Beholder</h2>
+		  <p>This site/app is a school project that me and my classmate are working on. 
+		  This is meant to be a site for all you DMs out there (or players) who want to have easy access to all the D&D monsters out there. 
+		  Right now we are trying to add some of the dragons to this site!</p>
+		</div>  
 
 	</body>
 </html>
@@ -46,6 +53,7 @@
 
 
 CSS CODE
+
 
 body {
   font-family: "Lato", sans-serif;
@@ -62,8 +70,16 @@ body {
   right: 0;
   top: 0;
   padding: 40px;
-  
 }
+
+.intro {
+	text-align: center;
+	color: #696969;
+	font-size: 18px;
+	position: absolute;
+	text-align: center;
+	margin-top: 300px;
+}	
 
 .sidenav {
   height: 100%;
