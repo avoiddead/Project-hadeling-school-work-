@@ -20,7 +20,7 @@ h1 {
 .sidenav {
   height: 100%;
   width: 0;
-  position: fixed;
+  position: relative;
   z-index: 0;
   top: 0;
   left: 0;
@@ -69,4 +69,5 @@ img {
   height: relative;
   margin-top: 705px;
   margin-left: 0px;
+  z-index: 0;
 }
